@@ -32,9 +32,9 @@ The list below describes each column of the data.
 2. my_steamID
 3. my_mmr (may be useful to take the highest MMR's to train the neural net)
 4. my_score (as in goals scored)
-5. my_x (positive to the right, if you're in your spawn position)
-6. my_y (positive behind you, if you're in your spawn position)
-7. my_z (positive up)
+5. my_x (x position of your vehicle, positive to the right, if you're in your spawn position. The origin is at the ball spawn location at the center of the arena)
+6. my_y (y position of your vehicle, positive behind you, if you're in your spawn position)
+7. my_z (z position of your vehicle, positive up)
 8. my_rotx (rotational position of your vehicle)
 9. my_roty
 10. my_rotz
@@ -81,7 +81,7 @@ The list below describes each column of the data.
 51. opponent_handbrake
 52. opponent_jumped
 53. opponent_boostamount
-54. ball_x
+54. ball_x (same coordinate frame as my_x, my_y, my_z)
 55. ball_y
 56. ball_z
 57. ball_vx
