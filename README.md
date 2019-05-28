@@ -30,7 +30,7 @@ The python script `keras_sample.py` in this repo shows an example of how this da
 
 ### Data Format
 
-The list below describes each column of the data. The origin for position values (my_x, my_y, opponent_x, etc.) is at the ball spawn location at the center of the arena.
+The list below describes each column of the data. All position values have an origin at the ball spawn location at the center of the arena.
 
 ```
 1. my_team_ID (0 for blue team, 1 for orange team)
