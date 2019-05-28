@@ -24,7 +24,7 @@ nn_data_plugin
 
 The data recording process is fully automated. Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the shared dropbox folder.
 
-### Training a neural network
+### Training a Neural Network
 
 The python script `keras_sample.py` in this repo shows an example of how this data can be used to train a neural network to play Rocket League.
 
