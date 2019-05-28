@@ -1,6 +1,6 @@
 # nn_data_plugin
 
-This plugin saves Rocket League 1v1 data to help train a neural network. The data is available here: https://www.dropbox.com/sh/ac9ihejgfkqud72/AAAbUGoSvjgQfW9wk_4x_DxYa?dl=0
+This plugin saves Rocket League 1v1 data to help train a neural network. The [data is available here](https://www.dropbox.com/sh/ac9ihejgfkqud72/AAAbUGoSvjgQfW9wk_4x_DxYa?dl=0).
 
 ## Getting Started
 
