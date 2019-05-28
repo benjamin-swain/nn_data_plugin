@@ -32,6 +32,7 @@ The python script `keras_sample.py` in this repo shows an example of how this da
 
 The list below describes each column of the data. The origin for position values (my_x, my_y, opponent_x, etc.) is at the ball spawn location at the center of the arena.
 
+```
 1. my_team_ID (0 for blue team, 1 for orange team)
 2. my_steamID
 3. my_mmr (may be useful to take the highest MMR's to train the neural net)
@@ -97,3 +98,4 @@ The list below describes each column of the data. The origin for position values
 63. my_ball_touches (an integer which incerements every time you touch the ball)
 64. opponent_ball_touches
 65. game_countdown (game countdown which updates every second, from 300 to 0)
+```
