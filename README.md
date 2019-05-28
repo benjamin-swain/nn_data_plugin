@@ -8,29 +8,21 @@ These instructions will get this plugin up and running on your local machine.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You will need to download Bakkes Mod from [here](https://bakkesmod.com/download.php), unzip the folder, and run BakkesMod.exe.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+1. Add nn_data_plugin to Bakkes Mod:
 
-Say what the step will be
+After running BakkesMod.exe, download nn_data_plugin.dll from this github repo and place it in the folder {STEAM INSTALLATION FOLDER}\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\plugins
 
-```
-Give the example
-```
+2. Set the plugin to run on Rocket League startup:
 
-And repeat
+Open plugins.cfg located at {STEAM INSTALLATION FOLDER}\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\cfg\plugins.cfg and add the following line:
 
 ```
-until finished
+nn_data_plugin
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
