@@ -14,7 +14,7 @@ You will need to download Bakkes Mod from [here](https://bakkesmod.com/download.
 
 After running BakkesMod.exe, download nn_data_plugin.dll from this github repo and place it in the folder `...\bakkesmod\plugins\`
 
-Open plugins.cfg located at `...\bakkesmod\cfg\plugins.cfg` in a text editor, add the following line at the bottom and save:
+Open plugins.cfg located at `...\bakkesmod\cfg\plugins.cfg` in a text editor, add the following line at the bottom:
 
 ```
 nn_data_plugin
