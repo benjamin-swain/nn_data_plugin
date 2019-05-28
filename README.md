@@ -97,7 +97,7 @@ The list below describes each column of the data. All position values have an or
 60. ball_avx
 61. ball_avy
 62. ball_avz
-63. my_ball_touches (an integer which incerements every time you touch the ball)
+63. my_ball_touches (an integer which increments every time you touch the ball)
 64. opponent_ball_touches
 65. game_countdown (game countdown which updates every second, from 300 to 0)
 ```
