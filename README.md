@@ -2,6 +2,8 @@
 
 This plugin saves Rocket League 1v1 data to help train a neural network. The uploaded [data is available here](https://www.dropbox.com/sh/ac9ihejgfkqud72/AAAbUGoSvjgQfW9wk_4x_DxYa?dl=0). This tool records features like controller state which is not available in common replay databases.
 
+This tool is in early development. Please report any issues.
+
 ## Getting Started
 
 These instructions will get this plugin up and running on your local machine.
@@ -14,7 +16,7 @@ You will need to download Bakkes Mod from [here](https://bakkesmod.com/download.
 
 After running BakkesMod.exe, download nn_data_plugin.dll from this github repo and place it in the folder `...\bakkesmod\plugins\`
 
-Open plugins.cfg located at `...\bakkesmod\cfg\plugins.cfg` in a text editor, add the following line at the bottom:
+Open plugins.cfg located at `...\bakkesmod\cfg\plugins.cfg` in a text editor and add the following line at the bottom:
 
 ```
 nn_data_plugin
@@ -22,9 +24,9 @@ nn_data_plugin
 
 ## Using the Plugin
 
-The data recording process is fully automated. Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the shared dropbox folder.
+The data recording process is fully automated. Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the [shared dropbox folder](https://www.dropbox.com/sh/ac9ihejgfkqud72/AAAbUGoSvjgQfW9wk_4x_DxYa?dl=0). The name of the file contains your steam ID and a number which increments with each new upload from your account.
 
-### Training a neural network
+### Training a Neural Network
 
 The python script `keras_sample.py` in this repo shows an example of how this data can be used to train a neural network to play Rocket League.
 
