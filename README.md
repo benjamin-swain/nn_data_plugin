@@ -22,7 +22,7 @@ nn_data_plugin
 
 ## Using the Plugin
 
-Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the shared dropbox folder.
+The data recording process is fully automated. Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the shared dropbox folder.
 
 ### Data Format
 
