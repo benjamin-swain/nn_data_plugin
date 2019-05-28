@@ -55,7 +55,7 @@ The list below describes each column of the data.
 25. my_handbrake (true if handbrake is activated)
 26. my_jumped (true if player has jumped)
 27. my_boostamount
-28. opponent_steamid
+28. opponent_steamid (a unique ID is still created for cross-platform players)
 29. opponent_mmr
 30. opponent_score
 31. opponent_x (positive to the opponent's right, if opponent is in their spawn position)
