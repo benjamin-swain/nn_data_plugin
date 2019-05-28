@@ -24,7 +24,7 @@ nn_data_plugin
 
 ## Using the Plugin
 
-The data recording process is fully automated. Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the shared dropbox folder.
+The data recording process is fully automated. Every time you play a 1v1 match in casual or ranked modes, a new data file is saved to `...\bakkesmod\plugins\nn_data\` on your local machine and uploaded to the [shared dropbox folder](https://www.dropbox.com/sh/ac9ihejgfkqud72/AAAbUGoSvjgQfW9wk_4x_DxYa?dl=0). The name of the file contains your steam ID and a number which increments with each new upload from your account.
 
 ### Training a Neural Network
 
